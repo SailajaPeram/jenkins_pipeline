@@ -1,5 +1,5 @@
-input=input("Enter username")
-if "hello" in input:
-    print("Build succesful")
+k=input("Enter input: ").split()
+if(k[0].lower()=="hello"):
+    print("success")
 else:
-    print("build failure")
+    print("fail")
