@@ -1,6 +1,6 @@
 print("abc")
-input="hello world"
+input="Hello world"
 print(input)
 k=input.split()
-print(k[0])
+print(k[0].lower())
 print(k[1])
